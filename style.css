@@ -1,0 +1,356 @@
+body {
+  background-color: #f5f4f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* {
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.sameline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.singleline {
+  display: flex;
+}
+.centerline {
+  display: flex;
+  align-items: center;
+}
+.sidebar {
+  width: 260px;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+}
+.logo {
+  font-size: 35px;
+  padding-top: 15px;
+  padding-right: 15px;
+  color: royalblue;
+}
+.sidebar-title {
+  display: flex;
+  justify-content: left;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  align-items: center;
+}
+.list-item {
+  width: fit-content;
+  color: #919699;
+  display: flex;
+  justify-content: left;
+  padding-left: 40px;
+  padding-block: 6px;
+  margin-bottom: 15px;
+}
+.list-icon {
+  font-size: 22px;
+  padding-right: 15px;
+}
+.list-title {
+  font-size: 20px;
+}
+.item-selected {
+  width: 85%;
+  color: royalblue;
+  background: #f3f4f6;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  left: 10px;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+.i-icon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  border: 15px solid #f3f4f6;
+}
+.i-logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 25px;
+  z-index: 1;
+}
+.i-content {
+  background-color: #f5f4f9;
+  padding-top: 25px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 25px;
+  text-align: center;
+}
+.i-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a4854;
+}
+.i-body {
+  color: #a8a7af;
+  margin-inline: 10px;
+  margin-block: 8px;
+}
+.i-button {
+  border: unset;
+  font-weight: bold;
+  background-color: white;
+  width: 70%;
+  padding-block: 15px;
+  margin-block: 15px;
+}
+.main-content {
+  margin-left: 260px;
+  padding-inline: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f4f9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.heading {
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 25px;
+}
+.row {
+  margin-block: 20px;
+}
+.searchbox {
+  width: 400px;
+}
+.search-text {
+  position: relative;
+  right: 22px;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  padding: 15px;
+  padding-left: 40px;
+  width: 80%;
+}
+::placeholder {
+  color: #98a0a7;
+}
+.search-icon {
+  color: #98a0a7;
+  font-weight: lighter;
+  font-size: 18px;
+  position: relative;
+  left: 35px;
+  top: 2px;
+  z-index: 2;
+}
+.iconbox {
+  position: relative;
+  font-size: 16px;
+  color: grey;
+  background-color: white;
+  width: fit-content;
+  padding-block: 8px;
+  padding-inline: 12px;
+  margin-inline: 5px;
+  border-radius: 10px;
+  border: 1px solid #ebebeb;
+}
+.noti {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 48px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  background-color: orange;
+  border-radius: 50px;
+  z-index: 2;
+}
+.filter {
+  color: royalblue;
+  background-color: #e3e6f9;
+  width: fit-content;
+  padding: 8px;
+  padding-inline: 35px;
+  border-radius: 5px;
+  margin-right: 15px;
+  border: 1px solid #e3e6f9;
+}
+.new-project {
+  color: whitesmoke;
+  background-color: #505dea;
+  width: fit-content;
+  padding: 8px;
+  padding-inline: 15px;
+  border-radius: 5px;
+  border: 1px solid #505dea;
+}
+.plus {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.container {
+  margin: 10px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.container-header {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.red {
+  background-color: #fd7373;
+}
+.blue {
+  background-color: #06c2f8;
+}
+.yellow {
+  background-color: #f8b56a;
+}
+.green {
+  background-color: #5db3a2;
+}
+.count {
+  color: #98a0a7;
+  font-size: 15px;
+  background-color: #e2e5ea;
+  width: fit-content;
+  padding-inline: 5px;
+  border-radius: 25%;
+  margin-left: 5px;
+}
+.card {
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #ebebeb;
+  box-shadow: 10px;
+}
+.card-header {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card-content {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.progress-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.progress-percent {
+  color: gray;
+}
+.time-left {
+  color: lightsalmon;
+  font-size: 13px;
+  background-color: #fdeee8;
+  width: fit-content;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+}
+.progress-value {
+  background-color: #86bbb1;
+  height: 5px;
+}
+.progress-bar {
+  margin: 10px 0px 10px;
+  background-color: #e5e8e8;
+  width: 100%;
+  height: 5px;
+}
+.boxsmall {
+  font-size: 14px;
+  width: fit-content;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.incomplete {
+  color: #a4a7b2;
+  background-color: #f5f4fa;
+  border: 1px solid lightgray;
+}
+.completed {
+  color: #8abb93;
+  background-color: #d2eed5;
+  border: 1px solid #d2eed5;
+}
+
+.profile-pic {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid white;
+}
+
+.pic2 {
+  left: -20px;
+  z-index: 2;
+}
+.pic3 {
+  position: relative;
+  left: -40px;
+  z-index: 2;
+}
+.completed {
+  align-items: center;
+}
