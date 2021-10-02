@@ -155,6 +155,11 @@ body {
 .searchbox {
   width: 400px;
 }
+@media (max-width: 850px) {
+  .searchbox {
+    width: 200px;
+  }
+}
 .search-text {
   position: relative;
   right: 22px;
@@ -227,7 +232,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-flow: wrap;
 }
 
