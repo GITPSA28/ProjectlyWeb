@@ -240,7 +240,22 @@ body {
   flex-direction: column;
   justify-content: right;
   flex-flow: wrap;
-}
+  }
+  .filter {
+  padding: 4px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  }
+  .new-project {
+  padding: 3px;
+  padding-inline: 5px;
+  border-radius: 5px;
+  }
+  .plus {
+  margin-right: 4px;
+  font-size: 8px;
+  }
 }
 .container {
   margin: 10px;
