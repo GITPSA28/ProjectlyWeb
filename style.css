@@ -278,7 +278,7 @@ body {
 .card {
   padding: 20px;
   margin-bottom: 10px;
-  width: 250px;
+  width: 270px;
   background: white;
   border-radius: 10px;
   border: 1px solid #ebebeb;
@@ -368,7 +368,6 @@ body {
     width: 200px;
   }
   .flex-container {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     flex-flow: wrap;
@@ -394,6 +393,7 @@ body {
     padding-left: 25px;
   }
 }
+
 @media (max-width: 620px) {
   .searchbox {
     display: none;
