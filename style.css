@@ -56,11 +56,11 @@ body {
   margin-bottom: 15px;
 }
 .list-icon {
-  font-size: 22px;
+  font-size: 19px;
   padding-right: 15px;
 }
 .list-title {
-  font-size: 20px;
+  font-size: 16px;
 }
 .item-selected {
   width: 85%;
@@ -70,11 +70,14 @@ body {
   border-bottom-right-radius: 50px;
   left: 10px;
 }
+.info-container {
+  bottom: 0;
+}
 .info-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .i-icon {
   display: flex;
@@ -103,11 +106,12 @@ body {
   text-align: center;
 }
 .i-title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   color: #4a4854;
 }
 .i-body {
+  font-size: 14px;
   color: #a8a7af;
   margin-inline: 10px;
   margin-block: 8px;
@@ -117,6 +121,7 @@ body {
   font-weight: bold;
   background-color: white;
   width: 70%;
+  border-radius: 20px;
   padding-block: 15px;
   margin-block: 15px;
 }
@@ -236,25 +241,30 @@ body {
     width: 200px;
   }
   .flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  flex-flow: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    flex-flow: wrap;
   }
   .filter {
-  padding: 4px;
-  padding-inline: 10px;
-  border-radius: 5px;
-  margin-right: 5px;
+    padding: 4px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
   }
   .new-project {
-  padding: 3px;
-  padding-inline: 5px;
-  border-radius: 5px;
+    padding: 3px;
+    padding-inline: 5px;
+    border-radius: 5px;
   }
   .plus {
-  margin-right: 4px;
-  font-size: 8px;
+    margin-right: 4px;
+    font-size: 8px;
+  }
+  .heading {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 25px;
   }
 }
 .container {
@@ -296,7 +306,7 @@ body {
 .card {
   padding: 20px;
   margin-bottom: 10px;
-  width: 300px;
+  width: 270px;
   background: white;
   border-radius: 10px;
   border: 1px solid #ebebeb;
